@@ -1,0 +1,175 @@
+/* ExamPage.module.css */
+:root {
+    --primary: #33BDFE;
+    --secondary: #82D7FF;
+    --light_light_blue: #EBF8FF;
+    --white_like: #FAFBFC;
+    --white: #fff;
+    --dark_grey: #444A6D;
+    --light_grey: #96A5B8;
+    --error: #e7195a;
+    --dark_blue: #05004E;
+    --scroller_bar: #0095FF;
+    --scroller_track: #CDE7FF;
+  }
+/* Styles for the container */
+.container {
+    position: relative;
+    width: 100%; 
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 2.5%; 
+  }
+
+  .addButton {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 10px 20px;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 90%;
+  }
+  
+  .addButton:hover {
+    background-color: var(--secondary);
+  }
+  
+  /* Styles for the exam cards */
+  .examCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .examTitleContainer{
+    background-color: var(--secondary);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+
+  .examTitle{
+    display: flex;
+    justify-content: space-between; /* Pushes the button to the right */
+    align-items: center; /* Vertically center content */
+    padding: 8px;
+    color: var(--dark_blue);
+    
+  }
+
+  .sendUpdatesButton {
+    margin-left: auto; /* Push the button to the right to be on the same line */
+    background-color: var(--primary);
+    color: #fff;
+    padding: 4px;
+    border: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+    font-size: 11px;
+  }
+  
+  /* Styles for the exam card title */
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .examContent{
+    /* display: flex; */
+    align-items: center; /* Vertically center content */
+    padding: 8%;
+    color: var(--dark_blue);
+  }
+
+  .durationTitle {
+    font-size: .9rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Apply bold font weight if desired */
+    color: var(--dark_blue); /* Specify the text color */
+  }
+
+  .exammain{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .examResources{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    /* margin-left: 10%; */
+  }
+
+  .iconAndText {
+    display: flex; /* Use flexbox for layout */
+    gap: 8px; /* Adjust the gap between the icon and the text as needed */
+  }
+
+  .examDates{
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin-left: 5%;
+  }
+  
+  /* Styles for the exam list */
+  .examList {
+    position: fixed;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: auto;
+    width: 80%; 
+    max-height: 75%;
+  }
+  
+  /* Styles for the exam list title */
+  .listTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: var(--dark_blue);
+  }
+  
+  /* Styles for the grid of exam cards */
+  .cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 20px;
+  }
+
+  .progressContainer {
+    width: 100%;
+    background-color: var(--scroller_track);
+    border-radius: 5px;
+  }
+  
+  /* Styles for the progress bar itself */
+  .progressBar {
+     /* Adjust the width as needed (e.g., 50% for half progress) */
+    height: 10px; /* Set the height of the progress bar */
+    background-color: var(--secondary); /* Set the color of the progress bar */
+    border-radius: 5px;
+  }
+  .progressText {
+    color: var(--primary); /* Text color for the progress text */
+    font-size: 15px;
+    text-align: right;
+  }
+
+  p{
+    font-size: .9rem;
+    color: var(--light_grey);
+    font-weight: bold;
+    text-align: right;
+  }
+  

@@ -1,0 +1,80 @@
+.reg_box{
+   width: 70%;
+   height: 50%;
+   background-color: lightblue;
+   margin-left: 15%;
+   margin-top: 3%;
+   border-radius: 2%;
+}
+
+/* * {box-sizing: border-box} */
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  padding-right: 40px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.Reg_topic{
+  margin-left: 40%;
+  margin-top: 1%;
+}
+
+.reg_col{
+  width: 46%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: rgba(51, 189, 254, 1);
+  border-color: rgba(51, 189, 254, 1);
+  color: white;
+  padding: 16px 20px;
+  margin-left: 40%;
+  border-radius: 5%;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.para_1{
+  margin-left: 32%;
+  margin-top: -2%;
+}
+
+.para{
+  margin-left: 28%;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

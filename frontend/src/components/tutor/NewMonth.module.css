@@ -1,0 +1,236 @@
+:root {
+    --primary: #33BDFE;
+    --secondary: #82D7FF;
+    --light_light_blue: #EBF8FF;
+    --white_like: #FAFBFC;
+    --white: #fff;
+    --dark_grey: #444A6D;
+    --light_grey: #96A5B8;
+    --error: #e7195a;
+    --dark_blue: #05004E;
+    --scroller_bar: #0095FF;
+    --scroller_track: #CDE7FF;
+    --color-light: rgba(132, 139, 200, 0.2);
+  }
+/* BatchFormPopup.css */
+.month-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 150, 234, 0.5); /* Semi-transparent overlay background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the overlay is above the dashboard content */
+  }
+  
+  .month-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    position: relative; /* Relative positioning for child elements */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 14px;
+  }
+
+  /* // NewBatch.css */
+/* .batch-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.close-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.close-button:hover {
+  background-color: #ddd;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.btn.btn-primary{
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn.btn-primary:hover, .btn.btn-outline-primary:hover{
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.btn.btn-outline-primary{
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn.btn-primary{
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn.btn-primary:hover, .btn.btn-outline-primary:hover{
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.btn.btn-outline-primary{
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn.btn-primary.pm-z{
+  max-height: inherit;
+  max-width: inherit;
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: center;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn.btn-primary.pm-s{
+  max-height: inherit;
+  max-width: inherit;
+  border-radius: 20px;
+  font-size: 13%;
+  text-align: center;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  color: var(--dark_blue);
+  font-weight: bold;
+  border: none;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+h2{
+  color: var(--dark_blue);
+  font-weight: bold;
+  text-align: center;
+}  
+
+h4{
+  color: var(--dark_blue);
+  font-weight: bold;
+} 
+
+.scrollable-form {
+  max-height: 400px; /* Set the maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  
+}
+.scrollable-form::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.scrollable-form::-webkit-scrollbar-thumb {
+  background-color: var(--secondary); /* Color of the thumb */
+  border-radius: 4px; /* Border radius of the thumb */
+  
+}
+.scrollable-form::-webkit-scrollbar-track {
+  background-color: var(--white); /* Color of the track */
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+form {
+  display:list-item;
+  flex-direction: column;
+}
+
+
+/* label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var( --dark_grey);
+} */
+
+
+select,
+input[type="date"] {
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: var(--light_grey);
+  margin-bottom: 15px;
+}
+
+input[type="number"]{
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: var(--light_grey);
+  margin-bottom: 15px;
+}
+
+select {
+  height: 38px;
+}
+ option:hover {
+  background-color: var(--light_light_blue);
+  color: var(--dark_blue);
+}
+
+hr{
+  max-width: 100%;
+  color: var(--primary);
+  border-top: 2px solid var(--primary);
+  
+}
+.icon-label {
+  display: flex; /* Display the icon and button in a row */
+  align-items: center; /* Vertically center the content */
+}
+
+.plus-icon {
+  margin-right: 5px; /* Add spacing between the icon and button */
+}
+

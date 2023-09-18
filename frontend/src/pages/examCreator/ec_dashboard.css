@@ -1,0 +1,16 @@
+
+.new ::-webkit-scrollbar{
+    /* width: 4px; */
+    height: 4px;
+}
+.new ::-webkit-scrollbar-thumb {
+    background-color: #77c6ea;
+    border-radius:8px ;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+}
+/* body .row > div {
+    font-family: var(--bs-body-font-family);
+} */

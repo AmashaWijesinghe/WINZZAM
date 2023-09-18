@@ -1,0 +1,51 @@
+:root {
+  --primary: #33BDFE;
+  --secondary: #82D7FF;
+  --light_light_blue: #EBF8FF;
+  --white_like: #FAFBFC;
+  --white: #fff;
+  --dark_grey: #444A6D;
+  --light_grey: #96A5B8;
+  --error: #e7195a;
+  --dark_blue: #05004E;
+  --scroller_bar: #0095FF;
+  --scroller_track: #CDE7FF;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 400px;
+  }
+  
+  .modalContent h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .modalContent p {
+    margin-bottom: 20px;
+  }
+  
+  .modalFooter {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .cancelButton {
+    margin-right: 10px;
+  }
+  

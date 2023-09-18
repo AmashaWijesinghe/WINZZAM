@@ -1,0 +1,94 @@
+/* MonthCard.module.css */
+:root {
+    --primary: #33BDFE;
+    --secondary: #82D7FF;
+    --light_light_blue: #EBF8FF;
+    --white_like: #FAFBFC;
+    --white: #fff;
+    --dark_grey: #444A6D;
+    --light_grey: #96A5B8;
+    --error: #e7195a;
+    --dark_blue: #05004E;
+    --scroller_bar: #0095FF;
+    --scroller_track: #CDE7FF;
+  }
+
+.overflowYScroll {
+    overflow-y: scroll;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 100%; /* Set maximum height to fill the available space */
+    max-width: 100%; 
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .productCardContainer {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: calc(90% - 1rem); /* Adjust card width as needed */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex; /* Add display: flex to align title to the left */
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .productCardTitle {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+  }
+  
+  .productCardInfo {
+    font-size: 12px;
+    color: var(--dark_grey);
+    margin: 2px 0; /* Adjust the margin to control the vertical gap */
+    padding-left: 20%;/* Add left padding to the content */
+    margin-top: 2px; /* Adjust the space above the text */
+    text-align: left; /* Align the text to the right */
+  }
+
+  .productCardButtonContainer {
+    display: flex;
+    justify-content: space-between; /* Align elements to the right */
+    width: 100%; /* Make the container take up the full width */
+    justify-content: right;
+  }
+  
+  .productCardButton {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .productCardButton:hover {
+    background-color: var(--secondary);
+  }
+
+  .text{
+    position: absolute;
+    color: var(--light_grey);
+    font-size: 1rem;
+    left: 46%;
+
+  }
+
+  .noMonthsContainer{
+    height: 130px;
+    overflow-y: hidden;
+  }
+
+  .image{
+    margin-left: 47%;
+    height: 130px;
+  }
+  

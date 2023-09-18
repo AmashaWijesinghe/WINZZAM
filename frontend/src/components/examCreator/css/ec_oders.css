@@ -1,0 +1,61 @@
+/* table .bdy td{
+    height: 2.8rem;
+    padding-right: 3rem;
+    color: #444A6D;
+} */
+/* table .head th{
+    color: #96A5B8;
+    
+    font-weight: 400;
+} */
+/* .table{
+    background-color: transparent;
+} */
+ /* .table:hover{
+    box-shadow: none;
+} */
+/* .cards >div{ */
+    /* background: linear-gradient(to right, rgba(0,149,217,0.7), rgba(0,190,228,0.5)); */
+    /* background: linear-gradient(45deg, #26baee, #5ddfff); */
+/* } */
+
+/* .progress{
+    width: 120px;
+    max-height: 0.5rem;
+} */
+/* .progress-bar{
+    background-color: #33BDFE;
+} */
+/* td a{
+    background: linear-gradient(to right, rgba(0,149,217,0.7), rgba(0,190,228,0.5));
+} */
+/* th button:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+} */
+.text-info{
+    text-align: start;
+}
+/* .ectable{
+    width: 90%;
+} */
+/* .ec2-grid{
+    text-align: center;
+} */
+/* .order_detail >div{
+    margin-right: 5rem;
+} */
+/* .order_detail2{
+    position: relative;
+    right: 24rem;
+} */
+/* .nmm{
+    margin-right: 5rem;
+} */
+/* .report{
+    position: relative;
+    left: 24rem;
+} */

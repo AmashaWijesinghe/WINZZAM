@@ -1,0 +1,160 @@
+:root {
+  --primary: #33BDFE;
+  --secondary: #82D7FF;
+  --light_light_blue: #EBF8FF;
+  --white_like: #FAFBFC;
+  --white: #fff;
+  --dark_grey: #444A6D;
+  --light_grey: #96A5B8;
+  --error: #e7195a;
+  --dark_blue: #05004E;
+  --scroller_bar: #0095FF;
+  --scroller_track: #CDE7FF;
+}
+/* Container for the form */
+.personal-details-form-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* Actual form styling */
+.personal-details-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Display in two columns */
+  gap: 10px; /* Gap between columns */
+  max-height: 450px; /* Set a maximum height for scroll functionality */
+  overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+  padding: 10px;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  
+}
+
+/* Custom scrollbar styling */
+.personal-details-form::-webkit-scrollbar {
+  width: 8px;
+}
+
+.personal-details-form::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* Blue thumb color */
+  border-radius: 4px;
+}
+
+/* Additional styling as needed */
+/* You can customize the following styles to match your design */
+.personal-details-form label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.personal-details-form input
+{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  
+}
+
+.personal-details-form select
+{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.personal-details-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+
+
+.personal-details-form textarea {
+  resize: vertical;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.personal-details-form input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: var(--secondary); /* Change the background color on hover */
+}
+
+.personal-details-form input[type="file"]::-webkit-file-upload-button {
+  background-color: var(--primary); /* Change the background color on hover */
+  border: var(--white);
+  border-radius: 5px;
+}
+
+.btn.btn-primary{
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn.btn-primary:hover, .btn.btn-outline-primary:hover{
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.btn.btn-outline-primary{
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn.btn-primary.pm-x{
+  max-height: inherit;
+  max-width: 20%;
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: center;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* In your CSS file */
+.file-upload {
+  display: flex;
+  align-items: center;
+      width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.file-upload input[type="file"] {
+  display: none; /* Hide the default input appearance */
+}
+
+.file-upload i {
+  margin-left: 10px; /* Add spacing between label text and icon */
+  cursor: pointer;
+}
+
+/* In your CSS file */
+.selected-file-name {
+  margin-left: 10px; /* Add spacing between icon and file name */
+}
+
+

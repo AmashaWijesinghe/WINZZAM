@@ -1,0 +1,12 @@
+ /* .insight{
+    grid-template-columns: 45rem 45rem !important;
+}
+.row{
+    margin-left: 3rem;
+}
+.insight{
+    margin-top: 8rem;
+} */
+.insight{
+    grid-template-columns: 45rem 45rem;
+}

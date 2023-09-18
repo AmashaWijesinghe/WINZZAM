@@ -1,0 +1,72 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    z-index: -2;
+  }
+  
+  .card {
+    margin: 20px;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .card-img {
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  .card-reviews {
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  
+  .rating-star {
+    color: #d5ab55;
+  }
+  
+  .total-reviews {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bag-icon {
+    color: #535353;
+  }
+
+  /* Button Styles */
+  .join-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; /* Align button to the top */
+    margin-top: 10px;
+  }
+  
+  .join-class-button {
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 8px; /* Add margin to separate button from card details */
+  }
+  
+  .join-class-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

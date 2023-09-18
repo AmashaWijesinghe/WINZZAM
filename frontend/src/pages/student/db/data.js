@@ -1,0 +1,190 @@
+import { AiFillStar } from "react-icons/ai";
+
+const data = [
+  {
+    img: "/profile_samples/3.webp",
+    title: "Dilan Perera",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1000",
+    batch: "2023",
+    month : "september",
+    medium: "Sinhala",
+    subject: "Physics",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/4.webp",
+    title: "Nimal Fernando",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1200",
+    batch: "2023",
+    month : "september",
+    medium: "Sinhala",
+    subject: "Physics",
+    month_id : "monthid",
+    month_status : 1
+  },
+
+  {
+    img: "/profile_samples/5.webp",
+    title: "Chamari Silva",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1500",
+    batch: "2024",
+    month : "september",
+    medium: "English",
+    subject: "Biology",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/6.webp",
+    title: "Sanjaya Bandara",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1800",
+    batch: "2025",
+    month : "october",
+    medium: "Tamil",
+    subject: "Physics",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Rukshan Rajapakse",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "2200",
+    batch: "2023",
+    month : "september",
+    medium: "Tamil",
+    subject: "Physics",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/7.jpg",
+    title: "Kavindu Jayawardena",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1200",
+    batch: "2025",
+    month : "september",
+    medium: "Tamil",
+    subject: "Chemistry",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Anusha Gunaratne",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1600",
+    batch: "2024",
+    month : "october",
+    medium: "English",
+    subject: "IT",
+    month_id : "monthid",
+    month_status : 1
+  },
+
+  {
+    img: "/profile_samples/2.webp",
+    title: "Tharindu Samaraweera",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1800",
+    batch: "2023",
+    month : "september",
+    medium: "Sinhala",
+    subject: "IT",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Shalini De Silva",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1200",
+    batch: "2023",
+    month : "october",
+    medium: "English",
+    subject: "Chemistry",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Dinesh Ranasinghe",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1100",
+    batch: "2024",
+    month : "september",
+    medium: "English",
+    subject: "Physics",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Sujitha Gunasekara",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1100",
+    batch: "2024",
+    month : "september",
+    medium: "English",
+    subject: "IT",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Kasun Jayasuriya",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "2500",
+    batch: "2023",
+    month : "october",
+    medium: "Sinhala",
+    subject: "Physics",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Yasodha Karunaratne",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1200",
+    batch: "2023",
+    month : "september",
+    medium: "English",
+    subject: "Biology",
+    month_id : "monthid",
+    month_status : 1
+  },
+  {
+    img: "/profile_samples/2.webp",
+    title: "Nuwan Liyanage",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "2500",
+    batch: "2024",
+    month : "october",
+    medium: "Sinhala",
+    subject: "Biology",
+    month_id : "monthid",
+    month_status : 1
+  }
+];
+
+export default data;

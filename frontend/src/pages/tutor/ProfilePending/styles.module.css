@@ -1,0 +1,49 @@
+/* PendingPage.module.css */
+
+.pendingcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
+  .pendingcontent {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pendingicon {
+    font-size: 48px;
+    color: #007bff; /* Change the icon color */
+  }
+  
+  .pendingheading {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333; /* Change the heading color */
+  }
+  
+  .pendingmessage {
+    font-size: 16px;
+    color: #555; /* Change the message text color */
+    margin-bottom: 20px;
+  }
+  
+  .pendingbutton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .pendingbutton:hover {
+    background-color: #0056b3; /* Change the button color on hover */
+  }
+  

@@ -1,0 +1,162 @@
+:root {
+  --primary: #33BDFE;
+  --secondary: #82D7FF;
+  --light_light_blue: #EBF8FF;
+  --white_like: #FAFBFC;
+  --white: #fff;
+  --dark_grey: #444A6D;
+  --light_grey: #96A5B8;
+  --error: #e7195a;
+  --dark_blue: #05004E;
+  --scroller_bar: #0095FF;
+  --scroller_track: #CDE7FF;
+  --color-light: rgba(132, 139, 200, 0.2);
+}
+
+
+/* BatchFormPopup.css */
+.month-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(86, 150, 234, 0.5);
+  /* Semi-transparent overlay background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensure the overlay is above the dashboard content */
+}
+
+.month-form-container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  height: 600px;
+  
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 14px;
+}
+
+
+.form-container {
+  display:flex;
+  padding: 20px;
+  border-radius: 8px;
+  height: 600px;
+}
+
+.inner-form-container{
+  display: flex;
+  align-items: center;
+  height: 450px;
+}
+
+.left-container,.right-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+
+
+
+.submit-container{
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 90%;
+  height: 50px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #cce2f4e0;
+	margin: 5px  ;
+	font-size: 14px;
+}
+
+.label{
+  font-size: 13px;
+  font-weight: 600;
+  color: #333; /* Text color */
+  margin: 0 0 0px 8px; /* Add spacing between label and input */
+}
+
+.progress{
+  margin:5px;
+  width: 90%;
+  height: 20px;
+}
+
+.success{
+  margin-left:12px;
+}
+
+.input_doc {
+	display: none;
+}
+
+.fileUpload {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  background-color: #0095FF;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.inputupload{
+  display: none;
+}
+
+
+.uploadIcon {
+  font-size: 15px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.selectedFileName {
+  margin-top: 11px;
+  
+}
+
+.fileUploadcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+h2 {
+  color: var(--dark_blue);
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  color: var(--dark_blue);
+  font-weight: bold;
+}
+

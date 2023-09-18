@@ -1,0 +1,154 @@
+:root {
+    --primary: #33BDFE;
+    --secondary: #82D7FF;
+    --light_light_blue: #EBF8FF;
+    --white_like: #FAFBFC;
+    --white: #fff;
+    --dark_grey: #444A6D;
+    --light_grey: #96A5B8;
+    --error: #e7195a;
+    --dark_blue: #05004E;
+    --scroller_bar: #0095FF;
+    --scroller_track: #CDE7FF;
+  }
+/* topbar_panel_member */
+.container_topbar_am {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly in the available space */
+    align-items: center; /* Center vertically */
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.fl_am {
+    flex: 1; /* Distribute the available space evenly between columns */
+    display: flex;
+    align-items: center;
+    
+}
+
+.fr_am{
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    left: 8%;
+}
+
+.tb_icon_am {
+    margin-right: 10px;
+    color: var(--primary);
+}
+
+.card-user-name-pm-x {
+    margin: 0;
+    color: var(--dark_blue);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card-sub-title-pm {
+    margin: 0;
+    color: var(--primary);
+}
+
+.container_topbar_pm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.topbar_title{
+    color: var(--dark_blue);
+}
+
+.topbar_buttons{
+    list-style-type: none;
+}
+
+.topbar_buttons li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn.btn-primary{
+    background-color: var(--primary);
+    border: none;
+}
+.btn.btn-primary:hover, .btn.btn-outline-primary:hover{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.btn.btn-outline-primary{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn.btn-primary.pm-z{
+    height: 40px;
+    width: 15%;
+    border-radius: 8px;
+    font-size: 95%;
+    float: right;
+    color: var(--white);
+    font-size: 90%;
+}
+/* Dropdown styles */
+.custom-select {
+    display: block;
+    width: 100%; /* Adjust width as needed */
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--dark_grey);
+    background-color: var(--white);
+    background-clip: padding-box;
+    border: 1px solid var(--light_light_blue);
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.1);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+}
+
+.custom-select:focus {
+    display: block;
+    max-width: inherit; /* Adjust width as needed */
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--dark_grey);
+    background-color: var(--white);
+    background-clip: padding-box;
+    border: 1px solid var(--light_light_blue);
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.1);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* Apply styles to dropdown options */
+.custom-select option {
+    background-color: var(--white);
+    color: var(--dark_grey);
+/*     transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+ */}
+
+/* Apply styles to dropdown options when hovering */
+.custom-select option:hover {
+    background-color: var(--scroller_bar);
+    color: var(--white);
+}
+
+.event_card_body_em{
+    display: grid;
+    max-width: inherit;
+    background-color: var(--white);
+    border-radius: 8px;
+    max-height: inherit;
+    border: 1px solid var(--light_light_blue);
+    border-radius: 6px;
+}
+
+
+
+

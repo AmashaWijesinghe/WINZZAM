@@ -1,0 +1,64 @@
+:root {
+	--primary: #33BDFE;
+	--secondary: #82D7FF;
+	--light_light_blue: #EBF8FF;
+	--white_like: #FAFBFC;
+	--white: #fff;
+	--dark_grey: #444A6D;
+	--light_grey: #96A5B8;
+	--error: #e7195a;
+	--dark_blue: #05004E;
+	--scroller_bar: #0095FF;
+	--scroller_track: #CDE7FF;
+  }
+  .container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5%;
+  }
+  
+  .custom-header {
+	display: flex;
+	justify-content: space-between; /* Align items at the start and end, centering the button */
+	align-items: center; /* Vertically center items */
+	height: 100px;
+	padding: 0 20px; /* Add some horizontal padding to the navbar */
+  }
+  
+  .notification {
+	color: #33BDFE;
+	font-size: 24px;
+  }
+  
+  .btn.btn-primary {
+	background-color: var(--primary);
+	border-color: var(--primary);
+  }
+  
+  .btn.btn-primary:hover,
+  .btn.btn-outline-primary:hover {
+	background-color: var(--secondary);
+	border-color: var(--secondary);
+  }
+  
+  .btn.btn-primary.pm-z {
+	max-height: inherit;
+	max-width: inherit;
+	border-radius: 20px;
+	font-size: 15px;
+	text-align: center;
+	float: right; /* Move the button to the right */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  /* Add styles for the profile and bell icon in the right corner */
+  .right-icons {
+	display: flex;
+	align-items: center;
+	
+  }
+  
+ 
+  
